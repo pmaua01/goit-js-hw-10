@@ -18,3 +18,23 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.county-search {
+  outline: 1px solid rebeccapurple;
+display: flex;
+
+
+}
+.flag{
+  width: 40px;
+  height: 40px;
+  margin-right: 2px;
+}
+
+.country-one{
+  outline: 1px solid green;
+  flex-direction: column;
+
+ 
+}
+
