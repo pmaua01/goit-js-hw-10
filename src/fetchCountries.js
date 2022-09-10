@@ -4,7 +4,10 @@ function fetchCountries(name) {
     `${BASE_URL}/name/${name}?fields=name,capital,population,flags,languages `
   ).then(r => {
     if (!r.ok) {
-      Notiflix.Notify.failure('Oops, there is no country with that name');
+      console.log('erorr r.ok');
+      throw new Error();
+
+      // Notiflix.Notify.failure('Oops, there is no country with that name');
     }
     return r.json();
   });
